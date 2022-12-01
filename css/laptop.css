@@ -1,0 +1,52 @@
+@meta screen and (min-width:992px) {
+  section > .container {
+    /* width: 1170px; */
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+  }
+
+  #nav-bar .container {
+    display: flex;
+    flex-direction: row;
+    flex-gap: space-around;
+  }
+  #nav-bar span {
+    margin-right: 100px;
+    border-left: 1px solid #d6c08d;
+    border-right: 1px solid #d6c08d;
+  }
+
+  .author-in-nav {
+    /* display: inline-block; */
+    text-align: center;
+    padding: 16px 150px;
+    vertical-align: center;
+  }
+  /* .skill {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .lang {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .act {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  } */
+  .web {
+    padding: 30px 20px;
+    border-right: 1px solid #d6c08d;
+  }
+  /* .cert {
+    grid-column-gap: 10px;
+  } */
+  .web {
+    padding: 30px 20px;
+    border-right: 1px solid #d6c08d;
+  }
+  /* .pjt {
+    grid-column-gap: 10px;
+  } */
+}

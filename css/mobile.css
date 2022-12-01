@@ -1,0 +1,161 @@
+#nav-bar i {
+  color: #199cdb;
+}
+.author-in-nav {
+  display: none;
+}
+
+#personal-info i {
+  color: #199cdb;
+}
+.ico i {
+  font-size: 32px;
+  color: #199cdb;
+}
+#job-info .cont {
+  border: 1px solid gray;
+}
+#job-info .cont {
+  align-content: start;
+}
+.exp .now {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #199cdb;
+}
+.content ul {
+  list-style: none;
+}
+.content li::before {
+  content: "";
+  background-color: #199cdb;
+  color: #199cdb;
+  font-weight: bold;
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border: 3px solid #199cdb;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+.fav i {
+  font-size: 24px;
+  color: #199cdb;
+  padding: 10px;
+  border: 1px solid #199cdb;
+  border-radius: 50%;
+}
+.record {
+  margin-bottom: 20px;
+}
+.content span {
+  display: inline-block;
+  width: 45px;
+  height: 2px;
+  /* margin: 10px 10px 20px 0; */
+}
+.eng span {
+  background: #199cdb;
+}
+.eng span:last-child {
+  background: gray;
+}
+.jpn span {
+  background-color: gray;
+}
+.jpn .first {
+  background: #199cdb;
+}
+
+.htmlcss span {
+  background-color: gray;
+}
+.htmlcss .first {
+  background: #199cdb;
+}
+.jst span {
+  background: #199cdb;
+}
+.jst span:last-child {
+  background-color: gray;
+}
+.node span {
+  background: #199cdb;
+}
+.node span:last-child {
+  background-color: gray;
+}
+.bs5 span {
+  background-color: gray;
+}
+.bs5 .first {
+  background: #199cdb;
+}
+.skill {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.lang {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.act {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.ico i {
+  font-size: 30px;
+}
+.cert-img {
+  width: 100%;
+}
+.cert {
+  border-bottom: 1px solid #d6c08d;
+  padding: 20px 10px;
+}
+.pjt-img {
+  width: 100%;
+}
+.cv,
+.pet,
+.news {
+  /* display: flex;
+  flex-direction: column; */
+  border: 1px solid #d6c08d;
+}
+.cv div,
+.pet div,
+.news div {
+  border-top: 1px solid #d6c08d;
+  border-bottom: 1px solid #d6c08d;
+}
+.year {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  background-color: #199cdb;
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+/* tr {
+  border-top: 1px solid #d6c08d;
+  border-bottom: 1px solid #d6c08d;
+} */
+tr td:first-child {
+  vertical-align: top;
+  width: auto;
+}
+#footer container {
+  height: 100px;
+}
+.footer-icon {
+  height: 50%;
+  width: 50%;
+}

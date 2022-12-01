@@ -1,0 +1,20 @@
+@meta screen and (min-width:576px, max-width:991px) {
+  .author-in-nav {
+    display: none;
+  }
+  /* .cert {
+    grid-column-gap: 5px;
+  } */
+  .web {
+    padding: 30px 20px;
+    border-right: 1px solid #d6c08d;
+  }
+  .cv,
+  .pet,
+  .news {
+    width: 30%;
+  }
+  /* .ancor {
+    color: gray;
+  } */
+}
